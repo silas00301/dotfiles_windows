@@ -5,6 +5,8 @@ $komo_ps1_loc = "$HOME/komorebi.ps1"
 #yasb main.py location
 $yasb_main_loc = "$HOME/Applications/yasb/src/main.py"
 
+$Env:GLAMOUR_STYLE = ".config/glamour/mocha.json"
+
 
 #>-- Logic --<
 komorebic.exe start -a
